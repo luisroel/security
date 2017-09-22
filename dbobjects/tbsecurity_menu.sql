@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `tbsecurity_menu`;
 CREATE TABLE `tbsecurity_menu` (
   `MenuId` bigint(20) NOT NULL AUTO_INCREMENT,
   `Name` varchar(60) DEFAULT NULL,

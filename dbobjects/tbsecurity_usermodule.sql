@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `tbsecurity_usermodule`;
 CREATE TABLE `tbsecurity_usermodule` (
   `UserId` bigint(20) NOT NULL,
   `ModuleId` bigint(20) NOT NULL,

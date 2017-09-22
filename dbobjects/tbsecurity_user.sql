@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `tbsecurity_user`;
 CREATE TABLE `tbsecurity_user` (
   `UserId` bigint(20) NOT NULL AUTO_INCREMENT,
   `UserName` varchar(35) DEFAULT NULL,

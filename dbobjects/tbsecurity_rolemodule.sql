@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `tbsecurity_rolemodule`;
 CREATE TABLE `tbsecurity_rolemodule` (
   `RoleId` bigint(20) NOT NULL,
   `ModuleId` bigint(20) NOT NULL,

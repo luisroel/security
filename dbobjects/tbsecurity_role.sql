@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `tbsecurity_role`;
 CREATE TABLE `tbsecurity_role` (
   `RoleId` bigint(20) NOT NULL AUTO_INCREMENT,
   `Name` varchar(60) DEFAULT NULL,

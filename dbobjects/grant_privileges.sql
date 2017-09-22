@@ -1,3 +1,3 @@
-CREATE USER 'esto_usr'@'%' IDENTIFIED BY 'pa$$w0rd';
-GRANT ALL PRIVILEGES ON esto_erp_db.* TO 'esto_usr'@'%';
+CREATE USER 'soccer_plus'@'localhost' IDENTIFIED BY 'pa$$w0rd';
+GRANT ALL PRIVILEGES ON *.* TO 'soccer_plus'@'localhost';
 FLUSH PRIVILEGES;

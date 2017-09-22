@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `tbsecurity_status`;
 CREATE TABLE `tbsecurity_status` (
   `StatusId` bigint(20) NOT NULL AUTO_INCREMENT,
   `Status` varchar(15) DEFAULT NULL,
